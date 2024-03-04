@@ -33,6 +33,7 @@ body {
     --btn-hover-border: #0a3871;
 
     background-color: var(--main-bg);
+
     margin: 2.5rem;
     transition: .5s;
 }
@@ -148,7 +149,8 @@ body {
 }
 
 .content-output-details img {
-    width: 90%;
+    width: 100%; /* Ajuste para ocupar 100% da largura do contêiner */
+    height: auto; /* Mantém a proporção original da imagem */
 }
 
 .content-output-details h2 {
@@ -249,7 +251,7 @@ body {
     }
 
     .content-output-details img {
-        display: none;
+        display: block;
     }
 
     .content-output-details h2 {
@@ -265,7 +267,6 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        display: none;
     }
 
 }
@@ -280,4 +281,3 @@ body {
         width: 90%;
     }
 }
-
