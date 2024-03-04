@@ -12,4 +12,5 @@ Este projeto trata-se de um decodificador de Texto usando JavaScript para cripto
 </div>
 
 💼 Link do projeto no Github Pages
+https://lucasamaral6.github.io/Challenge-ONE--Decodificador-de-texto/
 
